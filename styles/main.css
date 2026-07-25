@@ -2,7 +2,7 @@
 
 :root {
     /* Color palette */
-    --base: #19191a;
+    /* --base: #19191a;
     --dots: rgba(255, 255, 255, 0.13);
     --card: #faf7ec;
     --line: #3a3a37;
@@ -13,7 +13,20 @@
     --accent1: #e0c34a;
     --accent1d: #8a7a2e;
     --pillbg: #eee2c2;
-    --pilltxt: #6d5b1a;
+    --pilltxt: #6d5b1a; */
+    --base: #121213;
+    --card: #1c1c1d;
+    --pillbg: #2a2a2c;
+    --pilltxt: #ececea;
+    --text1: #e0bc0e;
+    --text2: #c9c8c2;
+    --text3: #8b8b88;
+    --accent1: #5c6570;
+    --accent1d: #a8a8a5;
+    --divider: #e5e0d3;
+    --line: #e5e0d3;
+    --dots: rgba(255, 255, 255, 0.13);
+
 
     /* Font settings */
     font-size: 16px;
