@@ -14,19 +14,6 @@
     --accent1d: #8a7a2e;
     --pillbg: #eee2c2;
     --pilltxt: #6d5b1a; */
-    --base: #121213;
-    --card: #1c1c1d;
-    --pillbg: #2a2a2c;
-    --pilltxt: #ececea;
-    --text1: #e0bc0e;
-    --text2: #c9c8c2;
-    --text3: #8b8b88;
-    --accent1: #5c6570;
-    --accent1d: #a8a8a5;
-    --divider: #e5e0d3;
-    --line: #e5e0d3;
-    --dots: rgba(255, 255, 255, 0.13);
-
 
     /* Font settings */
     font-size: 16px;
@@ -40,6 +27,38 @@
     --font-xl: 1.5rem;
     --font-xxl: 1.75rem;
     --font-xxxl: 2rem;
+}
+
+.dark {
+    --base: #121212;
+    --card: #1c1c1c;
+    --pillbg: #262626;
+    --pilltxt: #ececec;
+    --text1: #f0f0f0;
+    --text2: #c0c0c0;
+    --text3: #a0a0a0;
+    --accent1: #e0bc0e;
+    --accent1d: #b3970d;
+    --divider: #888888;
+    --line: #bdbabd;
+    --dots: rgba(255, 255, 255, 0.13);
+    --brackets: rgba(255, 255, 255, 0.09);
+}
+
+.light {
+    --base: #dddddd;
+    --card: #d0d0d0;
+    --pillbg: #c6c6c6;
+    --pilltxt: #131313;
+    --text1:  #0f0f0f;
+    --text2: #3f3f3f;
+    --text3: #5f5f5f;
+    --accent1: #bda00f;
+    --accent1d: #e0bc0e;
+    --divider: #777777;
+    --line: #424542;
+    --dots: rgba(0, 0, 0, 0.13);
+    --brackets: rgba(0, 0, 0, 0.09);
 }
 
 body {
@@ -153,9 +172,9 @@ main {
     width: 1.5rem;
     height: 100%;
 
-    border-top: 6px solid rgba(255, 255, 255, 0.09);
-    border-right: 6px solid rgba(255, 255, 255, 0.09);
-    border-bottom: 6px solid rgba(255, 255, 255, 0.09);
+    border-top: 6px solid var(--brackets);
+    border-right: 6px solid var(--brackets);
+    border-bottom: 6px solid var(--brackets);
 }
 
 /* =======================================
